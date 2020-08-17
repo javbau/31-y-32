@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<!--Import Google Icon Font-->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!--Import materialize.css-->
+		<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+		<!--Let browser know website is optimized for mobile-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Sesión 33</title>
+	</head>
+	<body class="white">
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#" class="brand-logo">Sesión 33</a>
+			</div>
+		</nav>
+		<div class="container">
+			<div class="row">
+				<article class="card-panel col s12 m8 offset-m2">
+					<form class="col s12">
+						<div class="row">
+							<div class="col s12 input-field">
+								<input type="text" name="txtNombre" id="txtNombre" class="validate" required="" />
+								<label for="txtNombre">Nombre</label>
+							</div>
+							<div class="col s12 input-field">
+								<textarea class="materialize-textarea" type="text" name="txtComentario" id="txtComentario" class="validate" required=""></textarea>
+								<label for="txtComentario">Comentario</label>
+							</div>
+						</div>
+						<div class="row">
+							<button type="button" class="btn waves-effect waves-light col s4 offset-s4" id="btnEnviar">Enviar</button>
+						</div>
+					</form>
+				</article>
+			</div>
+			<div class="row">
+				<div class="col s12 m10 offset-m1 l8 offset-l2">
+					<table id="respuesta"></table>
+				</div>
+			</div>
+		</div>
+		<script src="js/materialize.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/sesion33.js"></script>
+	</body>
+</html>
